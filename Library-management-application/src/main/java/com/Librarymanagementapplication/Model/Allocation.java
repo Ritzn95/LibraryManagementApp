@@ -23,8 +23,28 @@ public class Allocation implements Serializable {
 
 
    public Allocation(String bookId, String studentId) {
-       bookId= bookId;
-       studentId = studentId;
+       this.bookId= bookId;
+       this.studentId = studentId;
    }
 
+
+	public String getBookId() {
+		return bookId;
+	}
+		
+		
+	public void setBookId(String bookId) {
+		this.bookId = bookId;
+	}
+		
+		
+	public String getStudentId() {
+		return studentId;
+	}
+		
+		
+	public void setStudentId(String studentId) {
+		this.studentId = studentId;
+	}
+		
 }
